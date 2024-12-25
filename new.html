@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Envelope + Letter (Open/Close on Click)</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>Dear Arie</strong>
+                        <p>
+                            Hi, my love. Merry Christmas. I want to tell you na I’m really grateful that I met you. ‘Di ko inakala na si Ms. Canada na nakilala ko sa ome nung 2 am pala magiging my loves ko. I’m so lucky na nakilala kita. Pinaka most luckiest nga ako. During these few months, you really made me happy. You became my happy pill. Every time we talk, it feels natural lang. You always make me laugh and smile every time we talk, or even pag iniisip lang kita. Tuwing naghuhugas naiisip kita minsan tas magsmile nalang bigla. Kahit busy, kahit nasa labas ako naiisip kita. I love talking to you. Pag pagod ako tapos maguusap tayo, ‘di ko na mafefeel yung pagod. Pag sad ako or pag wala sa mood pag kausap kita bigla nalang mawawala yung sad at magiging nasa mood. Pag wala ako sa mood, I don’t reply kahit kanino pero naging exception ka. I love listening to you. Every time na may kwento ka lagi ako napapa smile or napapatawa. I don’t get bored pag pinapakinggan ka; gusto ko nga magkwento ka pa ng madami. Of course I love your voice. Ang ganda ng voice mo. Ang soothing, calming at nakakakilig. Favorite ko pakinggan voice mo. Parang music na rin sakin voice mo. I love sharing my achievements sayo. Pag sinasabi ko sayo, it makes me feel seen and appreciated. I love and appreciate everything about you. Yung sinend ko sayo na “100 reasons why I love you,” marami na nadagdag don. Every day I fall in love with you more. Mas lumalalim yung nararamdaman ko para sayo araw-araw. I want to assure you na I won’t change and my feelings won’t change. Kung magbabago man yun, I’m sure good change yun. I won’t be like your past. I assure you na ikaw lang ang nasa isip ko at wala ng iba pa. Over na ko sa past ko at wala akong magugustuhan or titignan na iba. My eyes are for you lang. Of course you’re the prettiest. You’re the most beautiful. Your beauty is ineffable. I’m all yours lang at wala ka ka share. I’ll always be here for you. Pag wala ka sa mood, sad or pagod ka, I’ll be there for you if you need me. During your good days or bad days, I’ll stay and love you more. Remember na I’m always one chat or call away lang if you need someone to listen. I care for you so much. I love you so much. I’ll love all of you. I’ll love your insecurities. I’ll love your flaws and imperfections. I love you. Merry Christmas ulit love.                 
+
+                        </p>
+                    </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
